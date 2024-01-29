@@ -6,9 +6,9 @@ export class Todo{
      * 
      * @param {String} decription 
      */
-    constructor( decription ){
+    constructor( description ){
         this.id = uuid(); 
-        this.decription = decription;
+        this.description = description;
         this.done = false;
         this.createdAt = new Date();
     }
